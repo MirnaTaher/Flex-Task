@@ -1,0 +1,87 @@
+
+/* we want all elements that we hover over to take 0.5s to change the style */
+:hover{
+    transition-duration: 0.5s;
+}
+
+/* if we hover over any button element, we want the background
+to be blue and the font color to be white */
+button:hover{
+    background-color: blue !important;
+    color: white !important;
+    cursor: pointer !important;
+}
+
+/* the video icon we want it to have a blue triangle when we hover over it*/
+.btn-overlay-center-hor:hover{
+    background-color: blue;
+    cursor: pointer;
+}
+/* the small arrows */
+.left-right-arrow i:hover{
+    background-color: blue;
+    color: white;
+}
+/* when we hover over the social media icons */
+.d-flex8 i:hover{
+    color: blue;
+}
+/* the fixed button */
+#arrow-up-btn:hover{
+    background-color: blue;
+}
+/* the footer a elements */
+footer a:hover{
+    color:blue !important;
+
+}
+/* the nav bar on the left side
+we have two of them in the website */
+.d-flex5 li a:hover{
+    color:black;
+}
+
+/* the magnifying glass at the very first nav bar in the header */
+.globalFont1 li:hover{
+    cursor:text;
+}
+/* we want a elements to be blue exept at the header*/
+.globalFont2 a:hover{
+    color:blue;
+}
+
+.globalFont3 a:hover{
+    color:blue;
+
+}
+/* a part of the left nav bar (the small arrow down next to the word more) */
+.moreArrow:hover .arrow-down2{
+    border-top: 5px solid black;
+}
+
+.globalFont1 li a:hover{
+    color: white;
+}
+/* the little arrow icon in the email input */
+#inside-email-input:hover{
+    cursor:pointer;
+}
+/* we want all the h1 and h2 elements to be treated like links except for some of them
+which we gave "pointer-off" class to */
+
+/* the ones we want the  */
+h1, h2, h3:hover{
+    cursor:pointer;
+}
+
+/* the exception */
+.pointer-off:hover{
+    cursor:text !important;
+}
+/* ------------------------------------------------------------------- */
+/* how the mouse changes when we hover over differnt things */
+/* little hand when mouse hovers over links and buttons */
+
+
+/* ------------------------------------------------------------------- */
+/* load more button */

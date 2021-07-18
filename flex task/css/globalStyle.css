@@ -1,0 +1,292 @@
+/* reset the style */
+* {
+  padding: 0;
+  margin: 0;
+}
+/* scroll behavior */
+html {
+  scroll-behavior: smooth;
+}
+/**** start of: global style ****/
+/* this one is for the header/navbar and for the section in the middle of the page with 3 pictures */
+/* global font */
+/* globalFont1 is for header and footer font style */
+
+.globalFont1 {
+  font-family: sans-serif;
+  color: rgb(156, 156, 156);
+  line-height: 1.6;
+}
+.globalFont1 a {
+  color: rgb(156, 156, 156);
+}
+/* .globalFont1 li {
+  color: rgb(156, 156, 156);
+  font-weight: 400 !important;
+} */
+.globalFont1 ul {
+  color: rgb(156, 156, 156);
+  font-weight: 400 !important;
+}
+.globalFont1 h1 {
+  color: white;
+  width: fit-content;
+}
+.globalFont1 h2 {
+  font-size: 1.2rem;
+  color: white;
+}
+.globalFont1 h3 {
+  font-size: 1rem;
+}
+/* end of globalFont1 which is for both header and footer */
+/****************************************************************************************************/
+/* font for the rest of the page except the three cards in the middle with a background image */
+.globalFont2 {
+  font-family: sans-serif;
+  color: rgb(163, 163, 163);
+  font-size: 14px;
+  line-height: 1.6;
+}
+/* an exception for h1 elements that are inside the class "globalFont2", we want the color to be black and bold */
+.globalFont2 h1 {
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 1.4;
+}
+.globalFont2 ul {
+  color: gray;
+}
+/* an exception for h2 */
+.globalFont2 h2 {
+  color: black;
+  font-weight: bold;
+  font-size: 13px;
+}
+.globalFont2 a {
+  color: rgb(156, 156, 156);
+  font-size: 13px;
+}
+.globalFont2 p {
+  font-size: 15px;
+  line-height: 1.3;
+}
+/* globalFont3 for the three cards in the middle */
+.globalFont3 {
+  color: rgb(156, 156, 156);
+  font-family: sans-serif;
+  font-size: 12px;
+}
+.globalFont3 h1 {
+  color: white;
+  font-size: 15px;
+  margin: 10%;
+}
+.globalFont3 a {
+  color: rgb(156, 156, 156);
+}
+.globalFont3 p {
+  padding-bottom: 2%;
+}
+
+/* end of font styling */
+
+/* padding */
+.box-padding2 {
+  box-sizing: border-box !important;
+  padding: 2% !important;
+}
+hr {
+  color: rgb(217 214 214);
+  padding: 0;
+  width: 100%;
+}
+
+/* container with 80% width of the body */
+.container {
+  width: 73%;
+  margin: 0 auto;
+  height: 100%;
+}
+.position-relative {
+  position: relative;
+}
+
+.circular-border {
+  border-radius: 50%;
+}
+/* display: flex */
+.d-flex {
+  display: flex;
+}
+/* black-backgroun */
+.dark-background {
+  background-color: rgb(22, 22, 22);
+}
+/* for flex-flow: column */
+.flex-flow-col {
+  flex-flow: column;
+}
+/* for hr */
+hr {
+  border: none;
+  background-color: #d8d8d8;
+  height: 1px;
+  padding: 0 !important;
+}
+/* padding left and bottom 4% */
+.pad-lb4 {
+  padding: 0 0 4% 4%;
+}
+
+/* padding left bottom and top 4% */
+.pad-lbt4 {
+  padding: 4% 0 4% 4%;
+}
+/* padding left and top 4% */
+.pad-lt4 {
+  padding: 4% 0 0 4%;
+}
+.pad-lbt2 {
+  padding: 2% 0 2% 2%;
+}
+.flex-flow-row {
+  flex-flow: row;
+}
+.width-32 {
+  width: 32%;
+}
+.width-65 {
+  width: 65%;
+}
+/* for justify-content: space between */
+.space-between {
+  justify-content: space-between;
+}
+.align-end {
+  justify-content: flex-end;
+  box-sizing: border-box;
+  padding: 3%;
+}
+.align-center {
+  align-items: center;
+}
+/* overLay */
+.overLay {
+  background-color: rgb(12 11 11 / 62%);
+  height: 100%;
+  width: 100%;
+}
+/* the travel button overlaying on top of the images*/
+.btn-overlay-left {
+  position: absolute;
+  left: 5%;
+  top: 5%;
+  background-color: white;
+  color: blue;
+  border: none;
+  padding: 1%;
+}
+/* margin bottom 100px */
+.mb100px {
+  margin-bottom: 80px;
+}
+/* this is because some images have the travel button in the center */
+.btn-overlay-center {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: white;
+  color: blue;
+  border: none;
+  padding: 1%;
+}
+/* this is to be centered both horizontally and vertically */
+/* for the small play icon  */
+.btn-overlay-center-hor {
+  position: absolute;
+  left: 50%;
+  top: 24%;
+  transform: translate(-50%, -50%);
+  font-size: 2.5rem;
+  color: white;
+  background-color: gray;
+  border-radius: 50%;
+}
+
+.text-overflow-ellipsis {
+  text-overflow: ellipsis;
+}
+.img-overlay {
+  position: relative;
+  flex-flow: column;
+}
+.img-overlay img {
+  height: 13rem;
+}
+.img-size3 {
+  height: 13rem;
+  width: 13rem;
+}
+.img-overlay div {
+  height: 220px;
+  box-sizing: border-box;
+  padding: 5% 10%;
+}
+.inside-shadow {
+  box-shadow: inset 0 0 10px rgb(156 156 156 /32%);
+}
+.outside-shadow {
+  box-shadow: 0 0 10px rgb(156 156 156 / 32%);
+}
+.img-overlay p {
+  padding: 3% 0;
+}
+/* horizontal card style the second size */
+.h-card1 {
+  box-shadow: 4px 2px 6px rgb(156 156 156 / 32%);
+}
+
+.h-card1 img {
+  height: 95px;
+  width: 95px;
+}
+.h-card1 div {
+  /* align-items: center; */
+  box-sizing: border-box;
+  padding: 3%;
+}
+
+/* bar flex left and list */
+.bar-flex-left {
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.bar-flex-left li {
+  width: 75%;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.bar-flex-left ul {
+  width: fit-content;
+}
+/* we want to cancel a element decoration */
+a {
+  text-decoration: none !important;
+}
+
+/* for sections with 900px height */
+.height900px {
+  height: 900px;
+}
+/* thin border */
+.thin-border-bottom {
+  border: none;
+  border-bottom: thin solid #d8d8d8;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+/******* end of: global style *******/

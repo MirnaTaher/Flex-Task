@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="en">
+    <!-- to include all languages -->
+    <meta charset="UTF-8">
+    <!-- to make it work properly on ms edge -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- to make it work on different screen sizes -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Task</title>
+    <!-- linking the css code -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- linking icons from fontawesome  -->
+    <!-- also don't forget to put the webfonts folder in the same path for the html file-->
+    <link rel="stylesheet" href="css/all.css">
+    <!-- css file for what happens when we hover over some elements in the page -->
+    <link rel="stylesheet" href="css/hover.css">
+    <!-- css file for how the page is showing on different screen sizes -->
+    <link rel="stylesheet" href="css/media.css">
+    <!-- global style file -->
+    <link rel="stylesheet" href="css/globalStyle.css">
+    <!-- link to wow library to make the website animated -->
+    <!-- don't forget to google search "wow.js" to follow how to use wow.js -->
+    <link rel="stylesheet" href="css/animate.css">
+    <!-- special fonts from google -->
+
+</head>
+
+<body>
+    <!-- nav bar + background image section -->
+    <section class="bgImg globalFont1 mb100px">
+        <div class="overLay">
+            <!-- we want it to be a flex -->
+            <!-- we also want it to take the class container -->
+            <div class="container  position-relative">
+                <div class="d-flex d-flex1">
+                    <h1 class="flex-item1">WORLD</h1>
+                    <ul class="flex-item1">
+                        <li><a href="#" class="whiteTextColor">Home</a></li>
+                        <li id="pageLi"><a href="#">Pages<span class="arrow-down1"></span></a></li>
+                        <li id="gadgets"><a href="#">Gadgets</a></li>
+                        <li><a href="#">Lifestyle</a></li>
+                        <li><a href="#">Video</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li class="magGlass"><i class="fas fa-search"></i></li>
+                    </ul>
+                </div>
+                <div class="d-flex d-flex2">
+                    <div class="d-flex flex-item2">
+                        <span>2</span>
+                        <h3>How Did Van Gogh's Turbulent Mind Depict One of the Most Complex</h3>
+                    </div>
+                    <div class="d-flex flex-item2">
+                        <span class="blueCircle">3</span>
+                        <h3 class="whiteTextColor">How Did Van Gogh's Turbulent Mind Depict One of the Most Complex</h3>
+                    </div>
+                    <div class="d-flex flex-item2">
+                        <span>4</span>
+                        <h3>How Did Van Gogh's Turbulent Mind Depict One of the Most Complex</h3>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- second section of the page -->
+    <!-- it has a display flex property (global style .d-flex) -->
+    <!-- it has special properties inside of the flex (which has class of d-flex3) -->
+    <!-- it has the same left and right indentation as the rest of the page (global style .container) -->
+    <section class="d-flex d-flex3 container globalFont2 mb100px">
+        <!-- Right flex, About world -->
+        <!-- takes 32% of the width (of the container) -->
+        <section class="d-flex d-flex4 wow bounceInUp">
+            <!-- this is vertical -->
+            <div>
+                <h1 class="pad-lb4 pointer-off">About World</h1>
+            </div>
+            <hr>
+            <div class="pad-lbt4">The mango is perfect in that it is always yellow and if it's not, I don't want to
+                hear about it.
+                The mango's only flaw, and it's a minor one, is the effort it sometimes takes to undress the mango,
+                carve it up in a way that makes sense, and find its way to the mouth.
+            </div>
+            <hr>
+            <h1 class="pad-lbt4 pointer-off">Top stories</h1>
+            <hr>
+            <!-- the images part -->
+            <section class="d-flex d-flex6">
+                <!-- the images take 30% -->
+                <div class="d-flex d-flex7">
+                    <img src="images/xb18.jpg.pagespeed.ic.4jSvdTLDPE.webp">
+                    <h2>How Did Van Gogh's Turbulent Mind Depict One of the Most</h2>
+                </div>
+                <div class="d-flex d-flex7">
+                    <img src="images/xb17.jpg.pagespeed.ic.Mxqeq8BZPv.webp">
+                    <h2>How Did Van Gogh's Turbulent Mind Depict One of the Most</h2>
+                </div>
+                <div class="d-flex d-flex7">
+                    <img src="images/xb14.jpg.pagespeed.ic.KW82YIFbj8.webp">
+                    <h2>How Did Van Gogh's Turbulent Mind Depict One of the Most</h2>
+                </div>
+                <div class="d-flex d-flex7">
+                    <img src="images/xb19.jpg.pagespeed.ic.uMNzupn9gY.webp">
+                    <h2>How Did Van Gogh's Turbulent Mind Depict One of the Most</h2>
+                </div>
+                <div class="d-flex d-flex7">
+                    <img src="images/xb15.jpg.pagespeed.ic.Vd81Fis15q.webp">
+                    <h2>How Did Van Gogh's Turbulent Mind Depict One of the Most</h2>
+                </div>
+            </section>
+            <hr>
+            <!-- stay connected header -->
+            <h1 class="pad-lbt4 pointer-off">Stay Connected</h1>
+            <hr>
+            <!-- the social media icons -->
+            <section class="d-flex d-flex8 pad-lbt4">
+                <!-- facebook icon -->
+                <a href="#"><i class="fab fa-facebook-f"></i>
+                </a>
+
+                <!-- twitter icon -->
+                <a href="#"><i class="fab fa-twitter"></i>
+                </a>
+
+                <!-- pinterest icon -->
+                <a href="#"><i class="fab fa-pinterest"></i>
+                </a>
+
+                <!-- vimeo icon  -->
+                <a href="#"><i class="fab fa-vimeo-v"></i>
+                </a>
+
+                <!-- instagram icon -->
+                <a href="#"><i class="fab fa-instagram"></i>
+                </a>
+
+                <!-- google icon -->
+                <a href="#"><i class="fab fa-google"></i>
+                </a>
+
+            </section>
+            <hr>
+            <!-- Today's Pick -->
+            <h1 class="pad-lbt4 pointer-off">Today's Pick</h1>
+            <hr>
+            <section class="pad-lt4">
+                <img id="milkyWay" src="images/xb22.jpg.pagespeed.ic.UNPIZqj0g-.webp">
+                <h1>How Did Van Gogh's Turbulent Mind Depict One of the Most Complex Concepts in Physics?</h1>
+            </section>
+
+
+
+        </section>
+
+        <!-- Left flex, Don't miss -->
+        <!-- takes 60% of the width (of the container)  -->
+        <section class="d-flex d-flex5 wow bounceInUp">
+            <!-- the bar section -->
+            <div class="d-flex bar-flex-left">
+                <h1 class="pointer-off">Don't Miss</h1>
+                <li class="d-flex">
+                    <ul><a href="#" class="color-black-border-blue">All</a></ul>
+                    <ul><a href="#">Style hunter</a></ul>
+                    <ul><a href="#">Vogue</a></ul>
+                    <ul><a href="#">Health & Fitness</a></ul>
+                    <ul><a href="#">Travel</a></ul>
+                    <ul><a href="#">Gadgets</a></ul>
+                    <ul class="moreArrow"><a href="#">More<span class="arrow-down2"><span></a></ul>
+                </li>
+            </div>
+            <!-- the vertical picture cards next to the one picture card -->
+            <div class="d-flex img-flex-left">
+                <div class="img-overlay d-flex card1 inside-shadow wow bounceInUp">
+                    <img src="images/xb1.jpg.pagespeed.ic.k36RVi3JXY.webp">
+                    <div>
+                        <h1>How Did Van Gogh's Turbulent Mind Depict One of the Most Complex Concepts in Physics?
+                        </h1>
+                        <p>
+                            How Did van Gogh’s Turbulent Mind Depict One of the Most Complex Concepts in...
+                        </p>
+                        <p><a href="#">Katy Liu</a> on <a href="#">Sep 29, 2017 at 9:48 am</a></p>
+                        <button class="btn-overlay-left">TRAVEL</button>
+                    </div>
+
+                </div>
+                <!-- the card section -->
+                <div class="d-flex ver-card-flex flex-flow-col space-between">
+                    <div class="d-flex h-card1 wow bounceInUp">
+                        <img src="images/xb19.jpg.pagespeed.ic.uMNzupn9gY.webp">
+                        <div class="d-flex flex-flow-col ">
+                            <h2>How Did Van Gogh's Turbulent Mind Depict One of the Most</h2>
+                            <p><a href="#">Katy Liu</a> on <a href="#">Sep 29, 2017 at 9:48 am</a></p>
+                        </div>
+                    </div>
+                    <div class="d-flex h-card1 wow bounceInUp" data-wow-delay="0.25s">
+                        <img src="images/xb18.jpg.pagespeed.ic.4jSvdTLDPE.webp">
+                        <div class="d-flex flex-flow-col ">
+                            <h2>How Did Van Gogh's Turbulent Mind Depict One of the Most</h2>
+                            <p><a href="#">Katy Liu</a> on <a href="#">Sep 29, 2017 at 9:48 am</a></p>
+                        </div>
+
+                    </div>
+                    <div class="d-flex h-card1 wow bounceInUp" data-wow-delay="0.35s">
+                        <img src="images/xb15.jpg.pagespeed.ic.Vd81Fis15q.webp">
+                        <div class="d-flex flex-flow-col ">
+                            <h2>How Did Van Gogh's Turbulent Mind Depict One of the Most</h2>
+                            <p><a href="#">Katy Liu</a> on <a href="#">Sep 29, 2017 at 9:48 am</a></p>
+                        </div>
+                    </div>
+                    <div class="d-flex h-card1 wow bounceInUp" data-wow-delay="0.45s">
+                        <img src="images/xb17.jpg.pagespeed.ic.Mxqeq8BZPv.webp">
+                        <div class="d-flex flex-flow-col ">
+                            <h2>How Did Van Gogh's Turbulent Mind Depict One of the Most</h2>
+                            <p><a href="#">Katy Liu</a> on <a href="#">Sep 29, 2017 at 9:48 am</a></p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+            <!-- the small left and right icons -->
+            <div class="left-right-arrow">
+                <!-- left arrow -->
+                <a href="#"><i class="fas fa-chevron-left"></i></a>
+                <!-- right arrow -->
+                <a href="#"> <i class="fas fa-chevron-right"></i></a>
+            </div>
+            <!-- second bar section -->
+            <div class="d-flex bar-flex-left">
+                <h1 class="pointer-off">What's Trending</h1>
+                <li class="d-flex">
+                    <ul></ul><a class="color-black-border-blue" href="#">All</a></ul>
+                    <ul><a href="#">Style hunter</a></ul>
+                    <ul><a href="#">Vogue</a></ul>
+                    <ul><a href="#">Health & Fitness</a></ul>
+                    <ul><a href="#">Travel</a></ul>
+                    <ul><a href="#">Gadgets</a></ul>
+                    <ul class="moreArrow"><a href="#">More<span class="arrow-down2"><span></a></ul>
+                </li>
+            </div>
+            <!-- second part of the left side with 2 horizontal cards and four small cards -->
+            <div class="d-flex img-flex-left flex-wrap">
+                <!-- two big cards -->
+                <div class="img-overlay d-flex card1 outside-shadow wow bounceInUp">
+                    <img src="images/xb2.jpg.pagespeed.ic.G3CqIJTFth.webp">
+                    <div>
+                        <h1>How Did Van Gogh's Turbulent Mind Depict One of the Most Complex Concepts in Physics?
+                        </h1>
+                        <p>
+                            How Did van Gogh’s Turbulent Mind Depict One of the Most Complex Concepts in...
+                        </p>
+                        <p><a href="#">Katy Liu</a> on <a href="#">Sep 29, 2017 at 9:48 am</a></p>
+                        <button class="btn-overlay-left">TRAVEL</button>
+                    </div>
+
+                </div>
+                <!-- second big card -->
+                <div class="img-overlay d-flex card1 outside-shadow wow bounceInUp">
+                    <img src="images/xb3.jpg.pagespeed.ic.ZoWo4VzCxa.webp">
+                    <div>
+                        <h1>How Did Van Gogh's Turbulent Mind Depict One of the Most Complex Concepts in Physics?
+                        </h1>
+                        <p>
+                            How Did van Gogh’s Turbulent Mind Depict One of the Most Complex Concepts in...
+                        </p>
+                        <p><a href="#">Katy Liu</a> on <a href="#">Sep 29, 2017 at 9:48 am</a></p>
+                        <button class="btn-overlay-left">TRAVEL</button>
+                    </div>
+
+                </div>
+                <div class="d-flex h-card1 width-48 wow bounceInUp">
+                    <img src="images/xb17.jpg.pagespeed.ic.Mxqeq8BZPv.webp">
+                    <div class="d-flex flex-flow-col">
+                        <h2>How Did Van Gogh's Turbulent Mind Depict One of the Most</h2>
+                        <p><a href="#">Katy Liu</a> on <a href="#">Sep 29, 2017 at 9:48 am</a></p>
+                    </div>
+                </div>
+                <div class="d-flex h-card1 width-48 wow bounceInUp">
+                    <img src="images/xb15.jpg.pagespeed.ic.Vd81Fis15q.webp">
+                    <div class="d-flex flex-flow-col">
+                        <h2>How Did Van Gogh's Turbulent Mind Depict One of the Most</h2>
+                        <p><a href="#">Katy Liu</a> on <a href="#">Sep 29, 2017 at 9:48 am</a></p>
+                    </div>
+                </div>
+                <div class="d-flex h-card1 width-48 wow bounceInUp" data-wow-delay="0.25s">
+                    <img src="images/xb14.jpg.pagespeed.ic.KW82YIFbj8.webp">
+                    <div class="d-flex flex-flow-col">
+                        <h2>How Did Van Gogh's Turbulent Mind Depict One of the Most</h2>
+                        <p><a href="#">Katy Liu</a> on <a href="#">Sep 29, 2017 at 9:48 am</a></p>
+                    </div>
+                </div>
+                <div class="d-flex h-card1 width-48 wow bounceInUp" data-wow-delay="0.25s">
+                    <img src="images/xb16.jpg.pagespeed.ic.WweuqJI0nd.webp">
+                    <div class="d-flex flex-flow-col">
+                        <h2>How Did Van Gogh's Turbulent Mind Depict One of the Most</h2>
+                        <p><a href="#">Katy Liu</a> on <a href="#">Sep 29, 2017 at 9:48 am</a></p>
+                    </div>
+                </div>
+            </div>
+            <!-- arrows -->
+            <div class="left-right-arrow">
+                <!-- left arrow -->
+                <a href="#"><i class="fas fa-chevron-left"></i></a>
+                <!-- right arrow -->
+                <a href="#"> <i class="fas fa-chevron-right"></i></a>
+            </div>
+        </section>
+        <!-- the end of section aside left 1 with the picture cards -->
+        <!-- --------------------------------------------------------------- -->
+
+
+    </section>
+    <!-- Start of:three pictures section -->
+    <section class="d-flex container globalFont3 space-between three-cards-flex mb100px">
+        <div class="bgImg1 wow bounceInUp">
+            <div class="overLay d-flex flex-flow-col align-end align-center">
+                <button class="btn-overlay-center">TRAVEL</button>
+                <h1>How Did Van Gogh's Turbulent Mind Depict One of the Most Complex Concepts in Physics?</h1>
+                <p><a href="#">Katy Liu</a> on <a href="#">Sep 29, 2017 at 9:48 am</a></p>
+            </div>
+
+        </div>
+
+        <div class="bgImg2 wow bounceInUp" data-wow-delay="0.25s">
+            <div class="overLay d-flex flex-flow-col align-end align-center">
+                <button class="btn-overlay-center">TRAVEL</button>
+                <h1>How Did Van Gogh's Turbulent Mind Depict One of the Most Complex Concepts in Physics?</h1>
+                <p><a href="#">Katy Liu</a> on <a href="#">Sep 29, 2017 at 9:48 am</a></p>
+            </div>
+
+        </div>
+
+        <div class="bgImg3 wow bounceInUp" data-wow-delay="0.4s">
+            <div class="overLay d-flex flex-flow-col align-end align-center">
+                <button class="btn-overlay-center">TRAVEL</button>
+                <h1>How Did Van Gogh's Turbulent Mind Depict One of the Most Complex Concepts in Physics?</h1>
+                <p><a href="#">Katy Liu</a> on <a href="#">Sep 29, 2017 at 9:48 am</a></p>
+            </div>
+
+
+        </div>
+
+    </section>
+    <!-- end of three pictures section -->
+
+    <!-- the last section before the footer -->
+    <section class="d-flex container flex-flow-row space-between globalFont2 mb100px height900px">
+        <!-- left section -->
+        <section class="d-flex flex-flow-col width-65 space-between">
+            <div>
+                <h1 class="pointer-off thin-border-bottom">Latest Articles</h1>
+            </div>
+            <div class="d-flex d-flex7 wow bounceInUp">
+                <img class="img-size3" src="images/xb18.jpg.pagespeed.ic.4jSvdTLDPE.webp">
+                <div class="flex-flow-col padding-box">
+                    <h1>How Did Van Gogh's Turbulent Mind Depict One of the Most Complex Concepts in Physics?</h1>
+                    <p>Pick the yellow peach that looks like a sunset with its red, orange, and pink coat skin, peel it
+                        off
+                        with your teeth. Sink them into unripened...</p>
+                    <p> <a href="#">Katy Liu</a> on <a href="#">Sep 29, 2017 at 9:48 am</a></p>
+                </div>
+            </div>
+            <div class="d-flex d-flex7 wow bounceInUp">
+                <img class="img-size3" src="images/xb19.jpg.pagespeed.ic.uMNzupn9gY.webp">
+                <div class="flex-flow-col padding-box">
+                    <h1>How Did Van Gogh's Turbulent Mind Depict One of the Most Complex Concepts in Physics?</h1>
+                    <p>Pick the yellow peach that looks like a sunset with its red, orange, and pink coat skin, peel it
+                        off
+                        with your teeth. Sink them into unripened...</p>
+                    <p> <a href="#">Katy Liu</a> on <a href="#">Sep 29, 2017 at 9:48 am</a></p>
+                </div>
+            </div>
+            <div class="d-flex d-flex7 wow bounceInUp">
+                <img class="img-size3" src="images/xb20.jpg.pagespeed.ic.XGTq6OgGTO.webp">
+                <div class="flex-flow-col padding-box">
+                    <h1>How Did Van Gogh's Turbulent Mind Depict One of the Most Complex Concepts in Physics?</h1>
+                    <p>Pick the yellow peach that looks like a sunset with its red, orange, and pink coat skin, peel it
+                        off
+                        with your teeth. Sink them into unripened...</p>
+                    <p> <a href="#">Katy Liu</a> on <a href="#">Sep 29, 2017 at 9:48 am</a></p>
+                </div>
+            </div>
+            <div class="d-flex d-flex7 wow bounceInUp">
+                <img class="img-size3" src="images/xb21.jpg.pagespeed.ic.JPRKDRNWJc.webp">
+                <div class="flex-flow-col padding-box">
+                    <h1>How Did Van Gogh's Turbulent Mind Depict One of the Most Complex Concepts in Physics?</h1>
+                    <p>Pick the yellow peach that looks like a sunset with its red, orange, and pink coat skin, peel it
+                        off
+                        with your teeth. Sink them into unripened...</p>
+                    <p> <a href="#">Katy Liu</a> on <a href="#">Sep 29, 2017 at 9:48 am</a></p>
+                </div>
+
+            </div>
+
+        </section>
+        <!-- right section -->
+        <section class="d-flex flex-flow-col width-32 space-between wow bounceInUp">
+            <div>
+                <h1 class="pointer-off thin-border-bottom">Most Popular Videos</h1>
+            </div>
+            <div class="img-overlay d-flex outside-shadow wow bounceInUp" data-wow-delay="0.1s">
+                <img src="images/xb7.jpg.pagespeed.ic.Sng7uN2r6m.webp">
+                <div>
+                    <h1>How Did Van Gogh's Turbulent Mind Depict One of the Most Complex Concepts in Physics?
+                    </h1>
+                    <p>
+                        How Did van Gogh’s Turbulent Mind Depict One of the Most Complex Concepts in...
+                    </p>
+                    <p><a href="#">Katy Liu</a> on <a href="#">Sep 29, 2017 at 9:48 am</a></p>
+                    <button class="btn-overlay-left">TRAVEL</button>
+                    <i class="fas fa-play-circle btn-overlay-center-hor"></i>
+
+                </div>
+            </div>
+            <div class="img-overlay d-flex outside-shadow wow bounceInUp" data-wow-delay="0.1s">
+                <img src="images/xb8.jpg.pagespeed.ic.uxUt1AjVZD.webp">
+                <div>
+                    <h1>How Did Van Gogh's Turbulent Mind Depict One of the Most Complex Concepts in
+                        Physics?
+                    </h1>
+                    <p>
+                        How Did van Gogh’s Turbulent Mind Depict One of the Most Complex Concepts in...
+
+                    </p>
+                    <p><a href="#">Katy Liu</a> on <a href="#">Sep 29, 2017 at 9:48 am</a></p>
+                    <button class="btn-overlay-left">TRAVEL</button>
+                    <i class="fas fa-play-circle btn-overlay-center-hor"></i>
+                </div>
+
+            </div>
+
+        </section>
+
+    </section>
+    <!-- the small little button at the end of the page -->
+    <div id="load-more-btn" class="mb100px">
+        <button>Load More</button>
+    </div>
+    <!-- the footer -->
+    <section class="dark-background">
+        <footer class="d-flex container space-between globalFont1">
+            <div class="flex-flow-col width-32">
+                <h1>WORLD</h1>
+                <P>Copyright ©2021 All rights reserved | This template is made with
+                    <Span><i class="far fa-heart"></i>
+
+                    </Span> by Colorlib
+                </P>
+            </div>
+            <ul class="flex-wrap space-between width-32">
+                <li class="width-32"><a href="#">Home</a></li>
+                <li class="width-32"><a href="#">Fashion</a></li>
+                <li class="width-32"><a href="#">Lifestyle</a></li>
+                <li class="width-32"><a href="#">Contact</a></li>
+                <li class="width-32"><a href="#">Gadgets</a></li>
+                <li class="width-32"><a href="#">Video</a></li>
+            </ul>
+
+            <div class="width-32">
+                <h2 class="pointer-off">Subscribe</h2>
+                <div class="position-relative">
+                    <input class="dark-background" type="email" name="email" placeholder="Enter Your Email">
+                    <span id="inside-email-input"><i class="fas fa-arrow-right"></i></span>
+                </div>
+            </div>
+
+        </footer>
+    </section>
+    <!-- the arrow-up button at the end of the page -->
+    <div>
+        <!-- we want to go to the top of the page when we click on it -->
+        <a href="index.html">
+            <i id="arrow-up-btn" class="fas fa-chevron-up circular-border"></i>
+        </a>
+
+    </div>
+
+    <script src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+
+</body>
+
+</html>

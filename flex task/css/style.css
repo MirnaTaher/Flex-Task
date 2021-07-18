@@ -1,0 +1,349 @@
+
+
+/**** start of: nav bar+ bgImg ****/
+/* the background image */
+.bgImg {
+  background-image: url(../images/xbg2.jpg.pagespeed.ic.QoUnFCtMkz.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 650px;
+}
+
+/* start of: the nav bar (flex1) */
+.d-flex1 {
+  align-items: flex-end;
+  justify-content: space-between;
+  width: 100%;
+  height: 70px;
+  border-bottom: 1px white solid;
+  padding-bottom: 1%;
+}
+.d-flex1 h1{
+  padding-left: 2%;
+}
+.d-flex1 i{
+  margin-bottom: 10px !important;
+  align-self: baseline !important;
+}
+.flex-item1{
+  align-items: center;
+}
+
+/* the arrow next to the page ul*/
+.arrow-down1 {
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid;
+  position: absolute;
+  bottom: 27%;
+  right: -35%;
+}
+#pageLi {
+  position: relative;
+}
+/* d-flex2 */
+.d-flex2 {
+  height: 100px;
+  margin-top: 35%;
+  justify-content: space-between;
+  position: absolute;
+  bottom: 5%;
+}
+.flex-item2 {
+  width: 33%;
+  font-size: 16px;
+  justify-content: space-between;
+  align-items: center;
+}
+/* the numbers of */
+.flex-item2 span {
+  width: 90px;
+  height: 50px;
+  border-width: thick;
+  border-style: solid;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 32px;
+  margin-right: 4%;
+}
+/* the different circle */
+.blueCircle{
+  border-color:blue;
+  border-left-color: rgb(156, 156, 156);
+}
+/* the diffenet text color for the selected section from the three */
+.whiteTextColor{
+  color: white !important;
+}
+/* ul decoration */
+#gadgets {
+  margin-left: 4%;
+}
+ul {
+  list-style: none;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
+  width: 50%;
+}
+a {
+  text-decoration: none;
+
+}
+.magGlass {
+  font-size: 150%;
+  margin-left: 10%;
+}
+
+/**** end of: nav bar ****/
+
+/* ------------------------------------------- */
+/* ------------------------------------------- */
+/* ------------------------------------------- */
+
+/**** start of: section two ****/
+
+/* we want to put it to the right side */
+/* we want it to take 30% of the width */
+/* we want its items to be aligned vertically */
+
+/* ---- d.-flex3 contains both right and left flex  ----*/
+.d-flex3 {
+  margin: 100px auto;
+  /* the next line is because i started with the right side */
+  flex-flow: row-reverse;
+  /* the space between them */
+  justify-content: space-between;
+}
+.d-flex5 {
+  flex-flow: column;
+  width: 70%;
+  box-sizing: border-box;
+  padding-right: 3%;
+}
+/* right flex */
+.d-flex4 {
+  width: 32%;
+  height: 1200px;
+  flex-flow: column;
+  margin-left: auto;
+  box-sizing: border-box;
+  /* padding-left: 2%; */
+  border-left: thin solid #d8d8d8;
+}
+/* the 5 images to the right */
+.d-flex4 img {
+  width: 80px;
+  height: 80px;
+  margin-right: 3%;
+}
+/*  */
+.d-flex6 {
+  flex-direction: column;
+  margin: 20px 0;
+  height: 420px;
+  justify-content: space-around;
+  padding-left: 4%;
+}
+.d-flex7 {
+  align-items: center;
+  box-shadow: 2px 2px 6px rgb(156 156 156 / 32%);
+}
+.d-flex7 h2{
+  box-sizing: border-box;
+  padding: 2%;
+}
+.d-flex8 {
+  margin: 2% 0;
+  justify-content: space-between;
+}
+.img-flex-left {
+  flex-flow: row;
+  justify-content: space-between;
+  border: none;
+  border-top: thin solid #d8d8d8;
+  padding-top: 4%;
+}
+/* for the icons */
+.d-flex8 a {
+  color: gray;
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  border-radius: 50%;
+  border-color: rgb(200 195 195 / 62%);
+  border-style: solid;
+  text-align: center;
+  padding: 2%;
+  border-width: thin;
+  border-color: #d8d8d8;
+}
+#milkyWay {
+  height: 200px;
+  width: 100%;
+}
+/*  */
+/*  */
+/*  */
+.ver-card-flex {
+  width: 48%;
+}
+
+.card1 {
+  width: 48%;
+}
+
+.moreArrow {
+  position: relative;
+  margin-right: 3%;
+}
+.arrow-down2 {
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid gray;
+  position: absolute;
+  bottom: 31%;
+  right: -47%;
+}
+/* the blue line and black words for the nav bar */
+.color-black-border-blue{
+  border-bottom: 2px solid blue;
+  box-sizing: border-box;
+  padding-bottom:15px;
+  color: black !important;
+}
+
+/* -------------------------------------------------------------------------- */
+/*start of the small two arrows left and right  */
+
+.left-right-arrow i {
+  /* we want to be treated like a block element to be able to put a circular border around it */
+  display: inline-block;
+  border-radius: 50%;
+  font-size: 1.2rem;
+  width: 2rem;
+  text-align: center;
+  height: 2rem;
+  border: solid #d8d8d8;
+  border-width: thin;
+  color: #d8d8d8;
+  box-sizing: border-box;
+  padding-top: 0.5%;
+  margin: 3% 1%;
+}
+
+/* end of the small two arrows */
+
+/*------------------------------------------------------------------------------ */
+/* the second nav bar (which is on the left) has the same code as the first  */
+/*------------------------------------------------------------------------------ */
+
+/* start of: the 2 cards big and 4 */
+.width-48 {
+  width: 48%;
+  margin-top: 2%;
+}
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+/* end of the 2 big cards and 4 small ones */
+/*------------------------------------------------------------------------------ */
+
+/* start of the three cards in flex with background images*/
+.bgImg1 {
+  background-image: url(../images/xb3.jpg.pagespeed.ic.ZoWo4VzCxa.webp);
+  height: 175px;
+  position: relative;
+  text-align: center;
+  width: 31.5%;
+}
+.bgImg2 {
+  background-image: url(../images/xb5.jpg.pagespeed.ic.jZY-CzMMWG.webp);
+  height: 175px;
+  position: relative;
+  text-align: center;
+  width: 31.5%;
+}
+.bgImg3 {
+  background-image: url(../images/xb6.jpg.pagespeed.ic.aXbP7WaRAn.webp);
+  height: 175px;
+  position: relative;
+  text-align: center;
+  width: 31.5%;
+}
+/* left section before the footer */
+.padding-box {
+  box-sizing: border-box;
+  padding: 2% 5%;
+}
+.padding-box h1{
+  font-size: 19px;
+}
+.padding-box p{
+  padding: 3% 0;
+}
+
+/* giving height to the last section, the one before the footer */
+
+/* the load more button */
+#load-more-btn {
+  text-align: center !important;
+  font-size: 1.5rem;
+ 
+}
+#load-more-btn button{
+  background-color: white;
+  padding: 0.5%;
+  border-radius: 26px;
+  width: 130px;
+  border: none;
+  color: #b6aeae;
+  border: #d8d8d8 solid thin;
+}
+/* ------------------------------------------------------- */
+/* start of: footer */
+footer {
+  box-sizing: border-box;
+  padding: 5rem 0;
+  align-items: center;
+}
+input{
+  border-style:none;
+  padding:2% 1%;
+  margin-top: 5%;
+  width: 100%;
+  border-bottom: 1px rgb(196, 192, 192) solid;
+}
+#inside-email-input{
+  position:absolute;
+  bottom: 0;
+  right: 2%;
+}
+footer h1{
+  box-sizing: border-box;
+  margin-bottom: 3%;
+}
+footer li{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* end of: footer */
+/* the arrow up button */
+#arrow-up-btn {
+  background-color: rgb(35, 35, 35);
+  font-size: 20px;
+  height: 20px;
+  text-align: center;
+  width: 20px;
+  padding: 1%;
+  color: white;
+  position: fixed;
+  bottom: 15%;
+  right: 4%;
+  
+}

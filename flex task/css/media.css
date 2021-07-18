@@ -1,0 +1,73 @@
+@media screen and (max-width: 900px) {
+  /* hide the left bar */
+  /* hide the small arrows on the left */
+  .bar-flex-left,
+  .left-right-arrow {
+    visibility: hidden;
+  }
+  .d-flex5,
+  .img-flex-left {
+    flex-flow: column;
+    align-content: flex-start;
+    width: 100%;
+    border: none;
+  }
+  .d-flex3 {
+    flex-flow: column-reverse;
+  }
+  /* width 85% */
+  .d-flex,
+  .img-flex-left,
+  .bgImg1,
+  .bgImg2,
+  .bgImg3,
+  .width-48,
+  .three-cards-flex,
+  .flex-flow-row,
+  .width-65,
+  .width-32,
+  .d-flex6 {
+    width: 75% !important;
+  }
+  .overLay ,.d-flex7, .h-card1, .card1, .ver-card-flex{
+    width: 100% !important;
+    margin: auto;
+  }
+  /* removing margins and borders*/
+  .d-flex4 {
+    margin: 0;
+    border: none;
+  }
+  .width-65 {
+    height: fit-content;
+  }
+  .width-65 .d-flex7 {
+    width: 100% !important;
+    margin:auto;
+  }
+  .width-32 .img-overlay {
+    width: 100% !important;
+    margin: auto;
+  }
+  .width-48{
+      width: 100% !important;
+      margin: auto;
+  }
+  .three-cards-flex,
+  .flex-flow-row {
+    flex-flow: column !important;
+  }
+  .flex-flow-row {
+    height: 10000px;
+  }
+  footer,
+  .height900px {
+    display: block !important;
+  }
+  .mb100px {
+    margin-bottom: 8000px;
+  }
+  .height900px {
+    height: 1900px !important;
+  }
+}
