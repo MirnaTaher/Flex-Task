@@ -278,9 +278,9 @@ a {
   text-decoration: none !important;
 }
 
-/* for sections with 900px height */
-.height900px {
-  height: 900px;
+/* for sections with 930px height */
+.height930px {
+  height: 930px;
 }
 /* thin border */
 .thin-border-bottom {
